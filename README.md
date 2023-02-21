@@ -1,2 +1,2 @@
 # Misc
-Miscellaneous python programmes
+Miscellaneous python programs
