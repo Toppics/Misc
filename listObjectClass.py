@@ -6,9 +6,9 @@ Created on Sun Aug 21 19:01:02 2022
 """
 
 class LOB: 
-    def __init__(self, name, roll): 
+    def __init__(self, name, age): 
         self.name = name 
-        self.roll = roll
+        self.age = age
    
 # creating list       
 list = [] 
@@ -19,5 +19,5 @@ list.append( LOB('Aarpax', 4) )
 list.append( LOB('Gloria', 65) )
   
 for obj in list:
-    print( obj.name, obj.roll, sep =' ' )
+    print( obj.name, obj.age, sep =' ' )
   
